@@ -8,7 +8,6 @@ def check_credentials():
     # Hardcoded credentials for demonstration purposes
     st.image("logo.svg")
     PASSWORD = st.secrets["password"]
-    st.info(PASSWORD)
     credentials = {
         'usernames': {
             'admin': {
@@ -20,7 +19,7 @@ def check_credentials():
     }
 
     # Instantiate the Authenticate class
-    auth = Authenticate(credentials, cookie_name='auth', key='test')
+    auth = Authenticate(credentials, cookie_name='auth', key='secret_key')
 
     # Define a function to create the login form
     # Use the login method from the Authenticate class
