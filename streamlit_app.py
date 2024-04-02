@@ -143,6 +143,6 @@ if __name__ == '__main__':
                 .sidebar .sidebar-content {visibility: hidden;}
                 </style>
                 """, unsafe_allow_html=True)
-    # isAuth = check_credentials()
-    # if isAuth:
-    upload_pdf_page()
+    isAuth = check_credentials()
+    if isAuth:
+        upload_pdf_page()

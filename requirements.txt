@@ -5,4 +5,4 @@ pdf2image
 Pillow
 aiohttp~=3.9.1
 PyPDF2
-streamlit_authenticator
+streamlit_authenticator==0.3.1
