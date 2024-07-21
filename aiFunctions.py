@@ -28,7 +28,7 @@ async def scan_image(image_content):
                 ]
 
                 payload = {
-                    'model': 'gpt-4-vision-preview',
+                    'model': 'gpt-4o',
                     "temperature": 0,
                     'max_tokens': 4096,
                     'messages': [
